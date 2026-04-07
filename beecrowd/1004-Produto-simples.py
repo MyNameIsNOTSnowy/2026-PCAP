@@ -8,7 +8,13 @@ Estudante: Otávio Rodrigues Conrado
 # --- ANÁLISE (LIAC) ---
 # Entrada: ele receberá dois valores denominados A e B
 # Processamento: é nescessário que calcule a multiplicação entre os dois valores
-# Saída: deve resolver multiplicação entre os dois valores e apresentar o produto
+# Saída: deve expressar o produto entre os valores fornecidos no formato "SOMA = ..."
+
 A = int(input(""))
 B = int(input(""))
+
+#...
+PROD = A*B
+
+#Saída
 print(f"PROD = {A*B}")
