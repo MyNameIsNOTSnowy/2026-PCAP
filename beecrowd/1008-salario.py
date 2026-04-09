@@ -21,4 +21,4 @@ S = float(input())
 
 # print mostra o que quer que seja colocado entre as "" (use f antes das "" para calculos em geral)
 print(f"NUMBER = {N}")
-print(f"SALARY = U$ {H*S}")
+print(f"SALARY = U$ {H*S:.2f}")
