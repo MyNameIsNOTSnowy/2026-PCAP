@@ -16,21 +16,21 @@ DDD = int(input())
 # Estrutura if/elif/else: testa cada condição em sequência
 # Apenas o primeiro bloco verdadeiro é executado os demais são ignorados
 if DDD == 61:
-    print("Brasília")
+    print("Brasilia")
 elif DDD == 71:
     print("Salvador")
 elif DDD == 11:
-    print("São Paulo")
+    print("Sao Paulo")
 elif DDD == 21:
     print("Rio de Janeiro")
 elif DDD == 32:
-    print("Juíz de fora")
+    print("Juiz de Fora")
 elif DDD == 19:
     print("Campinas")
 elif DDD == 27:
-    print("Vitória")
+    print("Vitoria")
 elif DDD == 31:
     print("Belo Horizonte")
 else:
     # Nenhuma condição acima foi verdadeira -> DDD não está na tabela
-    print("DDD Não cadastrado")
+    print("DDD nao cadastrado")
