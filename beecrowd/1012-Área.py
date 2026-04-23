@@ -3,6 +3,11 @@ Problema: beecrowd | 1012
 Data: 2026.04.23
 Estudante: Otávio Rodrigues Conrado
 '''
+# --- ANÁLISE (LIAC) ---
+# Entrada: Três números de ponto flutuante (A, B e C)
+# Processamento: Calcular as áreas de um triângulo, círculo, trapézio, quadrado e retângulo
+# Saída: Imprimir as áreas calculadas com três casas decimais
+
 A, B, C = input().split()
 
 A = float(A)
