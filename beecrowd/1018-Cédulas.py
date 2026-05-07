@@ -10,16 +10,22 @@ Estudante: Otávio Rodrigues Conrado
 # Processamento: Utilizar um algoritimo de divisão sucessiva para determinar a quantidade de cédulas necessárias
 # Saída: Imprimir a quantidade de cédulas de cada valor necessário para compor
 
+# int(input()) → lê o valor como texto e converte para inteiro
 n = int(input())
+
 print(f"{n}")
  
-n100 = n // 100; n = n % 100
-n50 = n // 50; n = n % 50
-n20 = n // 20; n = n % 20
-n10 = n // 10; n = n % 10
-n5 = n // 5; n = n % 5
-n2 = n // 2; n = n % 2
-n1 = n
+ # Decomposição dos REAIS em notas - sempre da maior para a menor:
+# // é divisão INTEIRA (descarta o decimal) → diz QUANTAS notas daquele valor cabem
+# % é o RESTO da divisão → guarda o que sobrou para a próxima troca
+
+n100 = n // 100; n = n % 100   # quantas notas de 100 cabem; n vira o resto
+n50 = n // 50; n = n % 50      # quantas notas de 50 cabem no que sobrou
+n20 = n // 20; n = n % 20      # quantas notas de 20 cabem no que sobrou
+n10 = n // 10; n = n % 10      # quantas notas de 10 cabem no que sobrou
+n5 = n // 5; n = n % 5         # quantas notas de 5 cabem no que sobrou
+n2 = n // 2; n = n % 2         # quantas notas de 2 cabem no que sobrou
+n1 = n                        # o que sobrou são notas de 1 real
  
 print(f"{n100} nota(s) de R$ 100,00")
 print(f"{n50} nota(s) de R$ 50,00")
