@@ -11,7 +11,10 @@ Estudante: Otávio Rodrigues Conrado
 # Saída: O maior valor entre os 3 seguido de "eh o maior"
 
 # int(input()) converte texto em um valor inteiro
-A, B, C = map(int, input().split())
+A, B, C = input().split()
+A = int(A)
+B = int(B)
+C = int(C)
 
 # Função para encontrar o maior valor entre A, B e C usando ">=" → maior ou igual, e "if/elif/else" para comparar os comandos
 if A >= B and A >= C:
