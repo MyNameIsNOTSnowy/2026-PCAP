@@ -1,0 +1,28 @@
+'''
+Problema: 1051
+Data: 2026.14.05
+Estudante: Otávio Rodrigues Conrado
+'''
+# Objetivo: Ler um valor de ponto flutuante e calcular o imposto devido, segundo a tabela fornecida
+
+# --- ANÁLISE (LIAC) ---
+# Entrada: um valor de ponto flututante
+# Processamento: calcular o imposto devido de acordo com o salário
+# Saída: o valor do imposto devido
+
+# float(input()) → le um valor e converte para ponto flututante
+A = float(input())
+B = 0
+
+# if/elif/else → verifica uma série de regras para calcular o imposto devido
+if A <= 2000.00:
+    print("Isento")
+elif A > 2000.00 and A <= 3000.00:
+    B = (A - 2000.00) * 0.08
+elif A > 3000.00 and A <= 4500.00:
+    B = 1000 * 0.08 + (A - 3000.00) * 0.18
+elif A > 4500.00 and A > 3000.00:
+    B = 1000 * 0.08 + 1500 * 0.18 + (A - 4500.00) * 0.28
+
+# print() → exibe o valor ou mensagem entre as ""
+print(f"R$ {B:.2f}")
