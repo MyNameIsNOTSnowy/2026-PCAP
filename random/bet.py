@@ -1,0 +1,100 @@
+import random
+
+banco = 100
+while banco > 0:
+    print(f"Você tem: {banco}")
+    reais = float(input("Quanto quer apostar? 🤑: "))
+    uh = ["🔪", "🤑", "🍒", "🐱"]
+
+    banco = (banco - reais)
+    randomBS1 = random.choice(uh)
+    randomBS2 = random.choice(uh)
+    randomBS3 = random.choice(uh)
+
+    print("................")
+    print(f"| {randomBS1} | {randomBS2} | {randomBS3} |")
+    print("''''''''''''''''")
+
+    if randomBS1 == "🔪" or randomBS2 == "🔪" or randomBS3 == "🔪":
+        print("perdeu seu dinheiro lol")
+    elif randomBS1 == "🤑" and randomBS2 == "🤑" and randomBS3 == "🤑":
+        print(f"JACKPOT → {(reais * 10)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🤑" and randomBS2 == "🤑" and randomBS3 == "🐱":
+        print(f"você ganhou {(reais * 8)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🤑" and randomBS2 == "🤑" and randomBS3 == "🍒":
+        print(f"você ganhou {(reais * 7.5)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🤑" and randomBS2 == "🍒" and randomBS3 == "🍒":
+        print(f"você ganhou {(reais * 6)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🤑" and randomBS2 == "🍒" and randomBS3 == "🤑":
+        print(f"você ganhou {(reais * 7.5)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🤑" and randomBS2 == "🍒" and randomBS3 == "🐱":
+        print(f"você ganhou {(reais * 6.5)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🤑" and randomBS2 == "🐱" and randomBS3 == "🤑":
+        print(f"você ganhou {(reais * 8)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🤑" and randomBS2 == "🐱" and randomBS3 == "🐱":
+        print(f"você ganhou {(reais * 7)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🤑" and randomBS2 == "🐱" and randomBS3 == "🍒":
+        print(f"você ganhou {(reais * 6.5)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🐱" and randomBS2 == "🐱" and randomBS3 == "🐱":
+        print(f"você ganhou {(reais * 6)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🐱" and randomBS2 == "🐱" and randomBS3 == "🤑":
+        print(f"você ganhou {(reais * 7)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🐱" and randomBS2 == "🐱" and randomBS3 == "🍒":
+        print(f"você ganhou {(reais * 5.5)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🐱" and randomBS2 == "🤑" and randomBS3 == "🐱":
+        print(f"você ganhou {(reais * 7)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🐱" and randomBS2 == "🤑" and randomBS3 == "🍒":
+        print(f"você ganhou {(reais * 6.5)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🐱" and randomBS2 == "🤑" and randomBS3 == "🤑":
+       print(f"você ganhou {(reais * 8)}")
+       banco = (banco + reais)
+    elif randomBS1 == "🐱" and randomBS2 == "🍒" and randomBS3 == "🐱":
+        print(f"você ganhou {(reais * 5.5)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🐱" and randomBS2 == "🍒" and randomBS3 == "🤑":
+       print(f"você ganhou {(reais * 6.5)}")
+       banco = (banco + reais)
+    elif randomBS1 == "🐱" and randomBS2 == "🍒" and randomBS3 == "🍒":
+        print(f"você ganhou {(reais * 5)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🍒" and randomBS2 == "🍒" and randomBS3 == "🍒":
+        print(f"você ganhou {(reais * 4.5)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🍒" and randomBS2 == "🍒" and randomBS3 == "🤑":
+        print(f"você ganhou {(reais * 6)}")
+        banco = (banco + reais)
+    elif randomBS1 == "🍒" and randomBS2 == "🍒" and randomBS3 == "🐱":
+      print(f"você ganhou {(reais * 5)}")
+      banco = (banco + reais)
+    elif randomBS1 == "🍒" and randomBS2 == "🐱" and randomBS3 == "🍒":
+       print(f"você ganhou {(reais * 5)}")
+       banco = (banco + reais)
+    elif randomBS1 == "🍒" and randomBS2 == "🐱" and randomBS3 == "🤑":
+      print(f"você ganhou {(reais * 6.5)}")
+      banco = (banco + reais)
+    elif randomBS1 == "🍒" and randomBS2 == "🐱" and randomBS3 == "🐱":
+       print(f"você ganhou {(reais * 5.5)}")
+       banco = (banco + reais)
+    elif randomBS1 == "🍒" and randomBS2 == "🤑" and randomBS3 == "🤑":
+       print(f"você ganhou {(reais * 7.5)}")
+       banco = (banco + reais)
+    elif randomBS1 == "🍒" and randomBS2 == "🤑" and randomBS3 == "🐱":
+       print(f"você ganhou {(reais * 6.5)}")
+       banco = (banco + reais)
+    elif randomBS1 == "🍒" and randomBS2 == "🤑" and randomBS3 == "🍒":
+        print(f"você ganhou {(reais * 6)}")
+        banco = (banco + reais)
