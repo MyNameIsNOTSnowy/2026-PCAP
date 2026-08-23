@@ -14,7 +14,7 @@ from modulos import ler_numero
 
 def jogar_adivinhe():
     titulo("Jogo de adivinhar o número")
-    print("Tente adivinhar o número que estou pensando entre 1 e 100.")
+    print("Tente adivinhar o número que estou pensando entre 1 e 10.")
     segredo = randint(1, 10)
     tentativas = 0
     acertou = False
