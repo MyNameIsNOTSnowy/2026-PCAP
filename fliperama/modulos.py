@@ -14,8 +14,10 @@ def ler_opcao(mensagem, validas):
         resposta = input(mensagem + ": ").strip()
     return resposta
 
+validas2 = int()
+
 def ler_numero(mensagem, minimo, maximo):
     numeros = []
-    for n in range(minimo, maximo + 1):
-        numeros.append(str(n) )
+    for n in range(minimo, maximo +1):
+        numeros.append(str(n))
     return int(ler_opcao(mensagem, numeros))
