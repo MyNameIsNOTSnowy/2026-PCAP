@@ -1,14 +1,12 @@
 /*
  * Disciplina: 2026-PCAP
  * Problema  : becrowd 1165 - Número Primo
- * Autor     : Lucas Klipan Miquelin
+ * Autor     : Otávio Conrado
  * Data      : 2026.10.14
 */   
 #include <stdio.h>
-
 int eh_primo(int n) {
     int i;
-
     if (n < 2) {
         return 0;
     }
