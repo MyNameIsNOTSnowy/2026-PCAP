@@ -12,7 +12,7 @@
 #include <time.h>
 
 #define DONO "Otávio.Conrado"
-#define CAPACIDADE 50
+#define CAPACIDADE 2
 #define TAM_APELIDO 20
 #define ARQUIVO "jogadores.csv"
 
