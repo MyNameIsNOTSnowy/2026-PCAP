@@ -1,6 +1,6 @@
 /*
  * Disciplina:  2026-PCAP
- * Problema  :  beecrowd 1001 - Extremamente Basico
+ * Problema  :  beecrowd 1004 - Produto Simples
  * Autor     :  Otávio Rodrigues Conrado
  * LIAC      :  Le dois valores inteiros a seguir, calcula o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente.   
  */
