@@ -1,7 +1,7 @@
 # Fliperama em C (MeuApp v3.0)
 
 ## O que e
-[duas linhas suas: o que programa faz e de onde ele veio]
+é um fliperama jogavel com cadastro de jogadores feito na linguagem de programação C
 
 ## Como compilar e rodar
 gcc -Wall fliperama.c -o fliperama
