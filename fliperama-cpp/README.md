@@ -12,11 +12,15 @@ g++ -Wall fliperama.cpp -o fliperama
 - jogadores.csv: [onde fica os jogadorES E SUAS PARTIDAS JOgadas, cada coluna guarda um jogador e numero de partidas]
 
 ## C x C++: o que mudou
-C: if (strcmp(apelidos[i], procurado) == 0) {
-C++: if (apelidos[i] == procurado) {
+C:53:        if (strcmp(apelidos[i], procurado) == 0) {
+  60:int cadastrar(char apelidos[][TAM_APELIDO], int partidas[], int qtd) {
+  71:    strcpy(apelidos[qtd], novo);
+C++:58:        if (apelidos[i] == procurado) {
+    87:void cadastrar(vector<string> &apelidos, vector<int> &partidas) {
+    93:    apelidos.push_back(novo);
 
 ## O que o C++ decidiu por mim
-[duas linhas: uma coisa que em C voce escrevia e em C++ a linguagem faz]
+procura os apelidos sem eu precisar 
 
 ## Autoavaliacao
 | Criterio | Conceito que espero | Onde se prova (arquivo e linha) |
